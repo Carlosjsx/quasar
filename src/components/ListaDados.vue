@@ -22,7 +22,7 @@ interface Dados {
   categoria: string
 }
 
-// Aceita explicitamente 'string | undefined' para evitar conflito no TypeScript
+
 const props = defineProps<{
   filtro?: string | undefined
 }>()
@@ -57,3 +57,12 @@ const filmesFiltrados = computed(() => {
   )
 })
 </script>
+
+
+<style scoped>
+h2{
+  padding:0;
+  margin:0;
+  font-size:1.7rem;
+}
+</style>

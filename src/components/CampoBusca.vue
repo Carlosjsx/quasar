@@ -8,9 +8,8 @@
       dense
       class="field-search"
     >
-      <template v-slot:append>
-        <q-icon name="search" />
-      </template>
+
+    
     </q-input>
   </div>
 </template>
@@ -24,10 +23,10 @@ const emit = defineEmits<{
 
 const termoBusca = ref('')
 
-// Transmite o valor para o layout sempre que o usuário digitar
 watch(termoBusca, (novoValor) => {
   emit('buscar', novoValor)
 })
+
 </script>
 
 <style scoped>
