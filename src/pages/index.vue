@@ -13,7 +13,6 @@
 
         <q-toolbar-title> App </q-toolbar-title>
 
-        <!-- Empurra a busca para a ponta direita da toolbar -->
         <q-space />
 
         <!-- Atualiza a variável termoBusca quando o evento @buscar for emitido -->
